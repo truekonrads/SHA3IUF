@@ -30,8 +30,8 @@
 #define SHA3_TRACE_BUF(format, buf, l, args...)
 #endif
 
-//#define SHA3_USE_KECCAK
-/* 
+
+/* #define SHA3_USE_KECCAK 
  * Define SHA3_USE_KECCAK to run "pure" Keccak, as opposed to SHA3.
  * The tests that this macro enables use the input and output from [Keccak]
  * (see the reference below). The used test vectors aren't correct for SHA3, 
